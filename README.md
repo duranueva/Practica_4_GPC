@@ -36,12 +36,12 @@ Los métodos de HTTP (Hypertext Transfer Protocol) son comandos que indican la a
 - PUT: Actualiza un recurso existente o crea uno nuevo si no existe. Tiene, a diferencia de POST, que realizar la misma solicitud varias veces no tiene efectos diferentes que realizarla una sola vez.
 - DELETE: Solicita la eliminación de un recurso específico en el servidor. Realizar la misma solicitud varias veces no tiene efectos diferentes que realizarla una sola vez.
 
-Es muy importante tener en cuenta que estas son solo una convencion de buenas practicas, pero en sí cada etiqueta, pues en teoría, podrías enviar una solicitud GET que tenga un efecto secundario de borrado en el servidor. Así que es importante seguir esta convencion para tener un uso correcto y mucho menos propenso a errores.
+Es muy importante tener en cuenta que estas son solo una convencion de buenas practicas, pues en teoría, podrías enviar una solicitud GET que tenga un efecto secundario de borrado en el servidor. Así que es importante seguir esta convencion para tener un uso correcto y por ende ser menos propenso a errores.
 
 
 2. ¿Investigue y enliste junto con su significado las categorías de códigos de estado que usa HTTP?
 
-Los códigos de estado HTTP son parte del protocolo de comunicación HTTP utilizado en la World Wide Web. Son enviados por parte del servidor como respuesta despues de haber recibido una solicitud de un cliente.
+Los códigos de estado HTTP son parte del protocolo de comunicación HTTP utilizado en la Web. Son enviados por parte del servidor como respuesta despues de haber recibido una solicitud de un cliente.
 
 Algunas caracteristicas principales:
 
@@ -52,7 +52,7 @@ Algunas caracteristicas principales:
   - 3xx - Redirecciones
   - 4xx - Errores del cliente
   - 5xx - Errores del servidor
-- Los ultimos dos digitos nos indican las diferentes respuestas que se tienen en torno a el primer digito: como por ejemplo:
+- Los ultimos dos digitos nos indican las diferentes respuestas que se tienen en torno a el primer digito, como por ejemplo:
   - 100 - Continuar: El servidor ha recibido la solicitud y el cliente puede continuar con la siguiente parte de la solicitud.
   - 200 - OK: La solicitud fue exitosa.
   - 201 - Creado: La solicitud ha sido completada y ha resultado en la creación de un nuevo recurso.
