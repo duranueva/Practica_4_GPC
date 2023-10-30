@@ -126,13 +126,13 @@ def help():
     print()
     print("Parámetros:")
     print("  <host>          Nombre del host al que realizar la petición.")
-    print("  <url>           URL del recurso a solicitar.")
     print("  [método]        Método HTTP a utilizar (GET, HEAD, POST, PUT, DELETE, etc.).")
+    print("  <url>           URL del recurso a solicitar.")
     print("  [User-Agent]    User-Agent a utilizar (Motorola, Samsung, Apple, Windows-Edge, MacOS-Safari, Roku-Ultra, Ubuntu-Firefox, Xiaomi, LG, Sony, Nokia, HTC).")
     print("  [codificación]  Codificación a utilizar.")
     print("  [conexión]      Tipo de conexión (keep-alive, close).")
     print()
-    print("Ejemplo: python3 httpCliente.py example.com /index.html GET Samsung utf-8 keep-alive")
+    print("Ejemplo: python3 HTTPClient.py example.com GET /index.html Samsung utf-8 keep-alive")
 
 try:
     if sys.argv[0] == '--h' or sys.argv[0] == '--help':

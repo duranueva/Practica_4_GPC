@@ -3,9 +3,10 @@
 ## Creación de script python
 Basándonos en el readme de la práctica que nos dieron, lo tomamos como base y fuimos añadiendo cosas que eran necesarias, como la función de ayuda y la implementación de los demás parámetros. Lo que hicimos fue agregar algunos agents que le pedimos a chatgpt, y modificar las funciones para que funcionen con parámetros en vez de tener valores fijos.
 
-Para ver ejemplos de ejecución se puede ejecutar 
+Para ver ejemplos de ejecución se puede ejecutar:
 
 > python3 opt/HTTPClient --help
+
 > python3 opt/HTTPClient --h
 
 Dentro o fuera del contenedor
@@ -17,7 +18,7 @@ Teníamos alguna experiencia con los dockerfiles gracias al servicio y el trabaj
 
 Nosotros utilizamos windows para la creación de todo, por lo que antes de ejecutar los comandos entramos a nuestro DockerDesktop y no necesitamos usar _sudo_. Para probar nuestro contenedor lo hicimos con los comandos:
 
-> docker build -t redes:p4
+> docker build -t redes:p4 .
 
 para construir la imagen, y luego probarla con:
 
