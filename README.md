@@ -1,10 +1,14 @@
 # Práctica 4
 
 ## Creación de script python
-Basándonos en el readme de la práctica que nos dieron, lo tomamos como base y fuimos añadiendo cosas que eran necesarias, como la función de ayuda y la implementación de los demás parámetros.
+Basándonos en el readme de la práctica que nos dieron, lo tomamos como base y fuimos añadiendo cosas que eran necesarias, como la función de ayuda y la implementación de los demás parámetros. Lo que hicimos fue agregar algunos agents que le pedimos a chatgpt, y modificar las funciones para que funcionen con parámetros en vez de tener valores fijos.
 
-## Ejemplos de ejecución
+Para ver ejemplos de ejecución se puede ejecutar 
 
+> python3 opt/HTTPClient --help
+> python3 opt/HTTPClient --h
+
+Dentro o fuera del contenedor
 
 
 ## Creación de dockerfile
@@ -15,7 +19,9 @@ Nosotros utilizamos windows para la creación de todo, por lo que antes de ejecu
 
 > docker build -t redes:p4
 
-para construir la imagen 
+para construir la imagen, y luego probarla con:
+
+> 
 
 ## Preguntas
 
